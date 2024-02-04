@@ -7,15 +7,18 @@
 
 .topo {
     width: 100%;
+    height: 10vh;
     background-color: #604829;
     position: fixed;
     z-index: 1;
+    border-bottom: solid 2px #fff ;
 }
 
 .topo .container-logo{
-    display: inline;
+    width: 7%;
     position: relative;
     left: 15%;
+    top: -20%;
 }
 
 .topo .container-menu {
@@ -50,11 +53,14 @@
 
 .banner .texto-banner{
     width: 100%;
+    position: absolute;
+    top: 45%;
     
 }
 
 .banner .texto-banner h1{
     font-family: Fraunces;
     color:#fff ;
-    font-size: 100px;     
+    font-size: 100px;
+    text-align: center;     
 }
