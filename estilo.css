@@ -1,0 +1,60 @@
+/* Efeitos Globais*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    width: 100%;
+    background-color: #604829;
+    position: fixed;
+    z-index: 1;
+}
+
+.topo .container-logo{
+    display: inline;
+    position: relative;
+    left: 15%;
+}
+
+.topo .container-menu {
+    display: inline;
+    position: absolute;
+    right: 15%;
+    top: 35%;    
+}
+
+.topo .container-logo .logo {
+    width: 100px;
+}
+
+.topo .container-menu a {
+    text-decoration: none;
+    color: #c4a47c;
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto 10px;
+    text-shadow: 5px 6px 3px #000000;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/parallax-imagem1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .texto-banner{
+    width: 100%;
+    
+}
+
+.banner .texto-banner h1{
+    font-family: Fraunces;
+    color:#fff ;
+    font-size: 100px;     
+}
