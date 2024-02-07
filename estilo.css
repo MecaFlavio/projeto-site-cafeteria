@@ -7,7 +7,7 @@
 
 .topo {
     width: 100%;
-    height: 10vh;
+    height: 6vh;
     background-color: #604829;
     position: fixed;
     z-index: 1;
@@ -16,20 +16,20 @@
 
 .topo .container-logo{
     width: 7%;
-    position: relative;
+    position: absolute;
     left: 15%;
-    top: -20%;
+    top: -30%;
 }
 
 .topo .container-menu {
     display: inline;
     position: absolute;
     right: 15%;
-    top: 35%;    
+    top: 15%;    
 }
 
 .topo .container-logo .logo {
-    width: 100px;
+    width: 65px;
 }
 
 .topo .container-menu a {
@@ -42,21 +42,24 @@
     text-shadow: 5px 6px 3px #000000;
 }
 
-.banner {
+.container-parallax{
     position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(assets/parallax-imagem1.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/parallax-imagem1.png);
+}
+
 .banner .texto-banner{
     width: 100%;
     position: absolute;
-    top: 45%;
-    
+    top: 45%;    
 }
 
 .banner .texto-banner h1{
@@ -71,7 +74,7 @@
     background-color: #fff;
 }
 
-.container-de-texto h2 {
+.container-de-texto .subtitulo {
     text-align: center;
     padding-bottom: 30px;
     color: #c4a47c;
@@ -94,31 +97,70 @@
     font-size: 16px;
 }
 
-.container-parallax{
-    position: relative;
-    height: 50vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
 .parallax1  { 
-    background-image: url(assets/parallax-imagem2.jpg);   
+    background-image: url(assets/parallax-imagem2.jpg);
+    height: 50vh;   
 }
 
 .parallax2{
     background-image: url(assets/parallax-imagem3.jpg);
+    height: 50vh;
+}
+
+.parallax3 {
+    background-image: url(assets/parallax-imagem4.png);
+    height: 100vh;
 }
 
 .container-parallax .container-titulo{
-    width: 100%;
-    position: absolute;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     top: 45%;
 }
 
 .container-parallax .container-titulo h3 {
     text-align: center;
     background-color: #604829;
-    
-    
+    font-family: Fraunces;
+    font-size: 24px;
+    color: #fff; 
+    border-radius: 5px; 
+}
+
+.contato .subtitulo {
+    width: 250px;
+    background-color: #604829;
+    color: #fff;
+    font-family: Oswald;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.contato .container-iframe {
+    text-align: center;
+    position: relative;
+    top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.endereco {
+    width: 500px;
+    background-color: #604829;
+    color: #fff;
+    font-family: Oswald;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    border-radius: 5px;
 }
