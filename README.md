@@ -1,6 +1,6 @@
 # projeto-site-cafeteria
 A proposta desse projeto é criar um site utilizando as tecnologias HTML e CSS. 
-Dessa forma você poderá colocar em prática os seguintes conceitos:
+Dessa forma colocar em prática os seguintes conceitos:
 
 Implementar uma lista na página;
 Inserir navegação na própria página do projeto;
