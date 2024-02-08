@@ -1,6 +1,6 @@
 # projeto-site-cafeteria
 A proposta desse projeto é criar um site utilizando as tecnologias HTML e CSS. 
-Dessa forma você poderá colocar em prática os seguintes conceitos:
+Dessa forma colocar em prática os seguintes conceitos:
 
 Implementar uma lista na página;
 Inserir navegação na própria página do projeto;
@@ -14,4 +14,4 @@ bottom;
 left;
 Deixar o topo fixo na parte superior da página;
 Posicionar o link do rodapé de forma que ele fique "flutuando";
-Aplicar o efeito parallax nas imagens de fundo da página;
+Aplicar o efeito parallax nas imagens de fundo da página. [Visite a pagina](https://mecaflavio.github.io/projeto-site-cafeteria/)
